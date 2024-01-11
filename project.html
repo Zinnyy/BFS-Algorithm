@@ -7,15 +7,25 @@
     <title>BFS Path Finder</title>
   </head>
   <body>
+    <header>
+      <div class="header-theme">
+        Breadth First Search Path Finder (BFS)
+      </div>
+    </header>
+
     <div id="input-container">
-      <label for="from">Enter starting node: </label>
-      <input type="text" id="from" />
-      <label for="to">Enter destination node: </label>
-      <input type="text" id="to" />
+      <div class="second-overall-container">
+        <label for="from">Enter starting node: </label>
+        <input type="text" id="from" />
+        <label for="to">Enter destination node: </label>
+        <input type="text" id="to" />
+
+        <!-- <p style="color: black; font-size: 25px;">Tomisin</p> -->
+      </div>
     </div>
 
     <div id="path"></div>
-    <button onclick="calculateShortestPath()">Find Shortest Path</button>
+    <button class="btn" onclick="calculateShortestPath()">Find Shortest Path</button>
 
     <script src="index.js"></script>
   </body>
